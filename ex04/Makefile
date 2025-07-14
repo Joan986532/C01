@@ -1,6 +1,7 @@
 NAME = Sed
 
-SOURCES = main.cpp
+SOURCES = main.cpp \
+		  Sed.cpp
 
 OBJECTS = $(SOURCES:.cpp=.o)
 
