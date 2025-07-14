@@ -2,7 +2,7 @@ NAME = Sed
 
 SOURCES = main.cpp
 
-OBJECTS = $(sources:.cpp=.o)
+OBJECTS = $(SOURCES:.cpp=.o)
 
 FLAGS = -Wall -Wextra -Werror -std=c++98
 
