@@ -11,7 +11,7 @@ FLAGS = -Wall -Wextra -Werror -std=c++98
 
 all: $(NAME)
 
-$(NAME): $(OBJETS)
+$(NAME): $(OBJECTS)
 	c++ $(FLAGS) $(OBJECTS) -o $(NAME)
 
 fclean: clean
